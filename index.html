@@ -9,16 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/icons/favicon-32x32.png" type="image/x-icon">
   <title>The Hummingbird Nest | Welcome</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <div class="container">
-      <a class="logo"><img src="/img/logo.svg" alt="the hummingbird nest logo: a silhouette of a flying hummingbird"></a>
+      <a><img class="logo" src="/img/icons/logo.svg" alt="the hummingbird nest logo: a silhouette of a flying hummingbird"></a>
       <nav class="header-navigation">
-        <ul class="header-nav-list" aria-label="Primary">
+        <ul class="header-nav-list fw-700" aria-label="Primary">
           <li><a href="index.html">Home</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="species.html">Species</a></li>
@@ -30,36 +30,41 @@
   </header>
 
   <main>
-    <section>
+    <section class="padding-block-500">
       <div class="container">
-        <div class="even-columns">
-          <div>
-            <h1>Discover the world of <span>Hummingbirds</span></h1>
-            <p>Learn about the planet's most amazing birds. Join our community supporting initiatives to protect our little friends and enjoy their beauty.</p>
+        <div class="even-columns intro">
+          <div class="intro-text">
+            <h1 class="ff-decorative fs-800 fw-800">Discover the world of 
+              <span>Hummingbirds</span>
+            </h1>
+            <p class="fs-400">Learn about the planet's most amazing birds. Join our community supporting initiatives to protect our little friends and enjoy their beauty.</p>
           </div>
           <div>
-          <button class="action-button">Explore!</button>
+          <button class="action-button ff-decorative fc-neutral-100 bgc-accent-400 fs-700 fw-500">
+            <div>Explore</div>
+            <div><img src="/img/icons/nest.svg" alt=""></div>
+          </button>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="padding-block-500">
       <div class="container">
         <div class="even-columns">
           <div>
-            <h2>How to support our initiatives?</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga necessitatibus aspernatur atque laborum. Pariatur, dolorem nostrum laborum reprehenderit qui eaque saepe sunt ullam aperiam fugiat repudiandae omnis provident earum quas vitae, est dicta ea accusantium veniam. Minus nam beatae nostrum tenetur officiis, ex in eaque aperiam!</p>
+            <h2 class="ff-decorative fs-600 fw-700">How to support our initiatives?</h2>
+            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga necessitatibus aspernatur atque laborum. Pariatur, dolorem nostrum laborum reprehenderit qui eaque saepe sunt ullam aperiam fugiat repudiandae omnis provident earum quas vitae, est dicta ea accusantium veniam. Minus nam beatae nostrum tenetur officiis, ex in eaque aperiam!</p>
           </div>
           <div>
-            <ul class="review-list">
+            <ul class="review-list" aria-label="Reviews">
               <li>
-                <h3>Jake</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium itaque laboriosam quibusdam corporis repudiandae! Doloremque tempore perferendis natus, odio minus tenetur ut recusandae officia, temporibus eveniet excepturi!</p>
+                <h3 class="fs-500 fw-500">Jake</h3>
+                <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium itaque laboriosam quibusdam corporis repudiandae! Doloremque tempore perferendis natus, odio minus tenetur ut recusandae officia, temporibus eveniet excepturi!&quot;</p>
               </li>
               <li>
-                <h3>Michell</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quibusdam consectetur nam commodi numquam quo maxime. Iste vero magni corporis animi eos aliquid ratione?</p>
+                <h3 class="fs-500 fw-500">Michelle</h3>
+                <p>&quot;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quibusdam consectetur nam commodi numquam quo maxime. Iste vero magni corporis animi eos aliquid ratione?&quot;</p>
               </li>
             </ul>
           </div>
@@ -68,21 +73,21 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="fc-neutral-100 bgc-accent-500 padding-block-400">
     <div class="container">
       <div class="even-columns">
         <div>
-          <form action="">
+          <form action="" aria-label="Send email">
             <input type="email">
-            <button class="button">Send</button>
+            <button class="button fs-400 fw-500 bgc-accent-100">Go</button>
           </form>
-          <p>&copy; Copyright 2022 Przemyslaw Chmura. All rights reserved.</p>
+          <p>Copyright &copy; 2022 by Przemyslaw Chmura. All rights reserved.</p>
         </div>
         <div>
-          <ul aria-label="Social media links">
-            <li><a href="#" aria-label="twitter"></a></li>
-            <li><a href="#" aria-label="facebook"></a></li>
-            <li><a href="#" aria-label="instagram"></a></li>
+          <ul class="social-media" aria-label="Social media links">
+            <li><a href="#" aria-label="twitter"><img src="/img/icons/twitter.png" alt="twitter"></a></li>
+            <li><a href="#" aria-label="facebook"><img src="/img/icons/facebook.png" alt="facebook"></a></li>
+            <li><a href="#" aria-label="instagram"><img src="/img/icons/instagram.png" alt="instagram"></a></li>
           </ul>
         </div>
         <div>
