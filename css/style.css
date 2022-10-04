@@ -314,13 +314,7 @@ body {
   place-items: center;
   border-radius: 50%;
   aspect-ratio: 1;
-  box-shadow: 0px 0px 20px var(--clr-neutral-900);
-  /* background-image: url(/img/icons/nest.svg);
-  background-position: relative;
-  background-position-x: center;
-  background-position-y: 2em;
-  background-repeat: no-repeat;
-  background-size: 45%;*/
+  transition: .4s ease-in;
 }
 
 .action-button div:first-of-type {
@@ -329,14 +323,15 @@ body {
 }
 
 .action-button div:last-of-type img {
-  width: 4em;
+  width: 3.5em;
   filter: invert(100%);
 }
 
-.action-button:hover {
-  filter: invert(100%);
-  background-color: var(--clr-neutral-900);
-
+.action-button:hover,
+.action-button:focus-visible {
+  opacity: .8;
+  box-shadow: 0px 0px 20px var(--clr-neutral-900);
+  
 }
 
 /* Footer */
